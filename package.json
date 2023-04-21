@@ -1,0 +1,19 @@
+{
+  "name": "swiper-from-library",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "clear": "rm -rf dist",
+    "start": "npm run clear && parcel",
+    "build": "npm run clear && parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "popmotion": "^8.5.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
