@@ -16,6 +16,7 @@
     "popmotion": "^8.5.0"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "parcel": "^2.8.3"
   }
 }
