@@ -57,20 +57,12 @@ body {
   margin: 0;
 }
 
-.main-nav {
-  background-color: rgb(30, 30, 30);
-  color: white;
-  margin: 0;
-  padding: 15px;
-  display: flex;
-}
-
 .brand {
   margin: 0;
   font-size: 50px;
   cursor: grab;
   z-index: 10;
-  position: absolute;
-  top: 253px;
-  left: 529px;
+  position: fixed;
+  top: 1%;
+  left: 50%;
 }
