@@ -6,7 +6,9 @@
   "scripts": {
     "clear": "rm -rf dist",
     "start": "npm run clear && parcel",
-    "build": "npm run clear && parcel build"
+    "build": "npm run clear && parcel build",
+    "predeploy": "rm -rf dist && parcel build ./*.html --public-url https://github.com/TrueForFun/using-javascript-in-websites",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
